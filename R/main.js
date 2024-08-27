@@ -123,7 +123,7 @@ function triggerAnimation1() {
         currentAction2.reset(); // アニメーションをリセット
         currentAction2.play(); // アニメーションをリセットして再生
         animationTriggerCount++; // トリガー回数を増加
-        console.log(アニメーションがトリガーされました (${animationTriggerCount}/${maxTriggers}));
+        console.log(`アニメーションがトリガーされました (${animationTriggerCount}/${maxTriggers})`);
     } else if (animationTriggerCount >= maxTriggers) {
         clearInterval(animationInterval); // 最大トリガー回数に達したらインターバルをクリア
         console.log('アニメーションのトリガー回数の上限に達しました。');
