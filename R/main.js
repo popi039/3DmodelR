@@ -104,7 +104,7 @@ loader.load('nice.glb', function (gltf) {
         if (clip.name === 'see2') {
             console.log('see2_ok');
             currentAction3 = action;
-            action.setEffectiveTimeScale(0.7); // スピードを0.7倍に設定
+            action.setEffectiveTimeScale(0.5); // スピードを0.5倍に設定
             action.loop = THREE.LoopRepeat; // ループ設定を繰り返しに変更
             action.play(); // アニメーションを再生
         }
